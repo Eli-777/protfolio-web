@@ -1,61 +1,80 @@
 import React from "react";
-import myImage from "../img/myImage.png";
+import { FaRegHandPointRight } from 'react-icons/fa';
+import pdf from '../pdf/A4-Eli-resume.pdf'
 
 class About extends React.Component {
   constructor() {
     super();
     this.state = {
       skills: [
-        { id: "HTML5_skill", content: "HTML5", porcentage: "80%", value: "80" },
-        { id: "CSS3_skill", content: "CSS3", porcentage: "75%", value: "75" },
         {
-          id: "JavaScript_skill",
-          content: "JavaScript",
-          porcentage: "90%",
-          value: "90"
-        },
-        { id: "PHP_skill", content: "PHP", porcentage: "70%", value: "70" },
-        {
-          id: "ReactJS_skill",
-          content: "ReactJS",
-          porcentage: "80%",
-          value: "80"
+          id: 'react',
+          name: 'React',
+          icon: 'devicon-react-original colored skill-icon pl-3',
         },
         {
-          id: "Python_skill",
-          content: "Python",
-          porcentage: "75%",
-          value: "75"
+          id: 'vue',
+          name: 'Vue',
+          icon: 'devicon-vuejs-plain colored skill-icon pl-3',
         },
         {
-          id: "VanillaJS_skill",
-          content: "VanillaJS",
-          porcentage: "85%",
-          value: "85"
+          id: 'javascript',
+          name: 'Javascript',
+          icon: 'devicon-javascript-plain colored skill-icon pl-3',
         },
         {
-          id: "Wordpress_skill",
-          content: "Wordpress",
-          porcentage: "80%",
-          value: "80"
-        }
+          id: 'css',
+          name: 'CSS',
+          icon: 'devicon-css3-plain colored skill-icon pl-3',
+        },
+        {
+          id: 'sass',
+          name: 'Sass',
+          icon: 'devicon-sass-original colored skill-icon pl-3',
+        },
+        {
+          id: 'bootstrap',
+          name: 'bootstrap',
+          icon: 'devicon-bootstrap-plain colored skill-icon pl-3',
+        },
       ],
-      about_me: [
+      experiences: [
         {
-          id: "first-p-about",
-          content:
-            "Lorem ipsum pariatur consectetur laboris occaecat nulla aliqua irure ad deserunt duis. Eiusmod nulla cupidatat labore sint sit aute dolore irure nostrud ut incididunt. Anim laborum reprehenderit labore magna ut dolore quis irure. Labore ea duis deserunt ullamco irure fugiat deserunt ut nisi ea minim proident. Nisi consectetur do non magna duis aliqua minim minim veniam. In occaecat minim qui consequat elit mollit consectetur non id tempor. Amet adipisicing occaecat tempor culpa quis est duis."
+          id: "firm01",
+          firmName: "台灣永興東潤服飾有限公司",
+          jobTitle: "會計專員",
+          jobDate: "2018~2019",
+          jobDescription: "嬰幼童運動用品專賣店，代理各大運動品牌 Nike、levis 等。",
+          jobWork: [
+            "查核新導入的會計系統問題，及後續追蹤。",
+            "協助公司轉換銀行，降低刷卡手續費率並增加店鋪收款方式。",
+            "製作銀行手續費試算核對報表。"
+          ]
         },
         {
-          id: "second-p-about",
-          content:
-            "Lorem ipsum pariatur consectetur laboris occaecat nulla aliqua irure ad deserunt duis. Eiusmod nulla cupidatat labore sint sit aute dolore irure nostrud ut incididunt. Anim laborum reprehenderit labore magna ut dolore quis irure. Labore ea duis deserunt ullamco irure fugiat deserunt ut nisi ea minim proident. Nisi consectetur do non magna duis aliqua minim minim veniam. In occaecat minim qui consequat elit mollit consectetur non id tempor. Amet adipisicing occaecat tempor culpa quis est duis."
+          id: "firm02",
+          firmName: "歡樂派股份有限公司",
+          jobTitle: "會計專員",
+          jobDate: "2016~2018",
+          jobDescription: "主要為代理線上遊戲公司，也自製遊戲。",
+          jobWork: [
+            "解決同事會計系統、人事系統問題。",
+            "為了讓老闆方便看報表，使用 google sheets 製作線上收支報表。",
+            "處理外國同事及老闆的工作簽證。"
+          ]
         },
         {
-          id: "third-p-about",
-          content:
-            "Lorem ipsum pariatur consectetur laboris occaecat nulla aliqua irure ad deserunt duis. Eiusmod nulla cupidatat labore sint sit aute dolore irure nostrud ut incididunt. Anim laborum reprehenderit labore magna ut dolore quis irure. Labore ea duis deserunt ullamco irure fugiat deserunt ut nisi ea minim proident. Nisi consectetur do non magna duis aliqua minim minim veniam. In occaecat minim qui consequat elit mollit consectetur non id tempor. Amet adipisicing occaecat tempor culpa quis est duis."
-        }
+          id: "firm03",
+          firmName: "長誌聯合會計師事務所",
+          jobTitle: "助理查帳員",
+          jobDate: "2014~2016",
+          jobDescription: "提供記查帳、稅務申報、工商登記等會計服務。",
+          jobWork: [
+            "負責25家公司帳務。",
+            "解決客戶稅務問題。",
+            "處理客戶臨時的工商登記。"
+          ]
+        },
       ]
     };
   }
@@ -66,61 +85,108 @@ class About extends React.Component {
         <div className="container">
           <div className="row">
             <div className="col-sm-12">
+              <div className="title-box text-center">
+                <h3 className="title-a">About</h3>
+                <p className="subtitle-a">
+                  <a href={pdf} target="_blank" rel="noopener noreferrer">
+                    <span className="pdfDownload">
+                      <FaRegHandPointRight className="FaRegHandPointRight" />
+                      PDF 下載
+                    </span>
+                  </a>
+                </p>
+                <div className="line-mf"></div>
+              </div>
               <div className="box-shadow-full">
                 <div className="row">
-                  <div className="col-md-6">
+                  <div className="col-md-12">
                     <div className="row">
-                      <div
-                        className="col-sm-6 col-md-5"
-                        style={{ margin: "0 auto" }}
-                      >
-                        <div
-                          className="about-img"
-                          style={{ textAlign: "center" }}
-                        >
-                          <img
-                            className="img-fluid rounded b-shadow-a"
-                            alt=""
-                          />
+                      <div className="title-box-3">
+                        <h5 className="title-left mb-4">Summary</h5>
+                      </div>
+                      <div className="r">
+                        <div className="summary-content col-10 mb-4">
+                          具一年的 web 前端開發經驗，從事四年多會計工作擁有與各部門溝通經驗，參與 ALPHA Camp 的線上課程，使用 Vue 與後端人員共同開發網頁後，覺得不足，所以自學 React 幫貼圖創作者朋友設計介紹貼圖的官網，持續深化前端技能。
                         </div>
                       </div>
                     </div>
-                    <div className="skill-mf">
-                      {/* <p className="title-s">Skill</p> */}
-                      {this.state.skills.map(skill => {
-                        return (
-                          <React.Fragment key={skill.id}>
-                            <span>{skill.content}</span>{" "}
-                            <span className="pull-right">
-                              {skill.porcentage}
-                            </span>
-                            <div className="progress">
-                              <div
-                                className="progress-bar"
-                                role="progressbar"
-                                style={{ width: skill.porcentage }}
-                                aria-valuenow={skill.value}
-                                aria-valuemin="0"
-                                aria-valuemax="100"
-                              ></div>
-                            </div>
-                          </React.Fragment>
-                        );
-                      })}
-                    </div>
                   </div>
-                  <div className="col-md-6">
-                    <div className="about-me pt-4 pt-md-0">
-                      <div className="title-box-2">
-                        <h5 className="title-left">About Me</h5>
+                  <div className="col-md-12">
+                    <div className="row">
+                      <div className="title-box-3">
+                        <h6 className="title-left mb-4">Skill</h6>
                       </div>
-                      {this.state.about_me.map(content => {
+                    </div>
+                    <div className="row">
+                      {
+                        this.state.skills.map(skill => {
+                          return (
+                            <div className="col-md-4 col-sm-6 col-12 mb-4" key={skill.id}>
+                              <i className={skill.icon}>
+                                <p className="skill-name pl-2">{skill.name}</p>
+                              </i>
+                            </div>
+                          )
+                        })
+                      }
+                    </div>
+
+                  </div>
+
+                </div>
+                <div className="row">
+                  <div className="col-md-12">
+                    <div className="row">
+                      <div className="title-box-3">
+                        <h6 className="title-left mb-4 mt-4">Experience</h6>
+                      </div>
+                    </div>
+                    {
+                      this.state.experiences.map(experience => {
                         return (
-                          <p className="lead" key={content.id}>
-                            {content.content}
-                          </p>
-                        );
-                      })}
+                          <div className="row" key={experience.id}>
+                            <div className="job-title col-md-4">
+                              <h6 className="title-small col-12">
+                                {experience.firmName}
+                              </h6>
+                              <div className="job col-12">
+                                <p className="job-name mb-0">{experience.jobTitle}</p>
+                                <p className="job-date">{experience.jobDate}年</p>
+                              </div>
+                            </div>
+                            <div className="job-des col-md-8">
+                              <p className="job-detail pl-3 pr-3">
+                                {experience.jobDescription}
+                              </p>
+                              <ul>
+                                {
+                                  experience.jobWork.map((work, index) => {
+                                    return (
+                                      <li key={index}>
+                                        {work}
+                                      </li>
+                                    )
+                                  })
+                                }
+                              </ul>
+                            </div>
+                          </div>
+                        )
+                      })
+                    }
+                  </div>
+                </div>
+                <div className="row">
+                  <div className="col-md-12">
+                    <div className="row">
+                      <div className="title-box-3">
+                        <h6 className="title-left mb-4 mt-4">Education</h6>
+                      </div>
+                    </div>
+                    <div className="row">
+                      <p className="title-small col-12 pl-4">國立彰化師範大學</p>
+                      <p className="job-date pl-4 pr-3">商業教育系</p>
+                      <p className="job-date pl-4 pr-3">2009~2013年</p>
                     </div>
                   </div>
                 </div>

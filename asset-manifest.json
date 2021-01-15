@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/protfolio-web/static/css/main.f8c0e966.chunk.css",
+    "main.js": "/protfolio-web/static/js/main.b44c8437.chunk.js",
+    "main.js.map": "/protfolio-web/static/js/main.b44c8437.chunk.js.map",
+    "runtime-main.js": "/protfolio-web/static/js/runtime-main.a31e2955.js",
+    "runtime-main.js.map": "/protfolio-web/static/js/runtime-main.a31e2955.js.map",
+    "static/css/2.e5ea4d22.chunk.css": "/protfolio-web/static/css/2.e5ea4d22.chunk.css",
+    "static/js/2.30051c48.chunk.js": "/protfolio-web/static/js/2.30051c48.chunk.js",
+    "static/js/2.30051c48.chunk.js.map": "/protfolio-web/static/js/2.30051c48.chunk.js.map",
+    "index.html": "/protfolio-web/index.html",
+    "static/css/2.e5ea4d22.chunk.css.map": "/protfolio-web/static/css/2.e5ea4d22.chunk.css.map",
+    "static/css/main.f8c0e966.chunk.css.map": "/protfolio-web/static/css/main.f8c0e966.chunk.css.map",
+    "static/js/2.30051c48.chunk.js.LICENSE.txt": "/protfolio-web/static/js/2.30051c48.chunk.js.LICENSE.txt",
+    "static/media/A4-Eli-resume.a0a5a05a.pdf": "/protfolio-web/static/media/A4-Eli-resume.a0a5a05a.pdf",
+    "static/media/earth.a08c82a6.jpg": "/protfolio-web/static/media/earth.a08c82a6.jpg",
+    "static/media/font-awesome.css": "/protfolio-web/static/media/fontawesome-webfont.f691f37e.woff",
+    "static/media/highq-2.b197d31a.png": "/protfolio-web/static/media/highq-2.b197d31a.png",
+    "static/media/highq-3.4338f1f7.png": "/protfolio-web/static/media/highq-3.4338f1f7.png",
+    "static/media/highq-4.8c921831.png": "/protfolio-web/static/media/highq-4.8c921831.png",
+    "static/media/highq-5.c8b74f7a.png": "/protfolio-web/static/media/highq-5.c8b74f7a.png",
+    "static/media/highqWeb.fbbb7145.png": "/protfolio-web/static/media/highqWeb.fbbb7145.png",
+    "static/media/ionicons.css": "/protfolio-web/static/media/ionicons.b45d332f.svg",
+    "static/media/male.cadeca2c.png": "/protfolio-web/static/media/male.cadeca2c.png",
+    "static/media/male1.33b5179e.png": "/protfolio-web/static/media/male1.33b5179e.png",
+    "static/media/twitter-2.1c668f4e.png": "/protfolio-web/static/media/twitter-2.1c668f4e.png",
+    "static/media/twitter-3.2952d398.png": "/protfolio-web/static/media/twitter-3.2952d398.png",
+    "static/media/twitter-4.1606cdb1.png": "/protfolio-web/static/media/twitter-4.1606cdb1.png",
+    "static/media/twitter-5.fff1cdfc.png": "/protfolio-web/static/media/twitter-5.fff1cdfc.png",
+    "static/media/twitter-6.8aca09cd.png": "/protfolio-web/static/media/twitter-6.8aca09cd.png",
+    "static/media/twitter-vue.65d65724.png": "/protfolio-web/static/media/twitter-vue.65d65724.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a31e2955.js",
+    "static/css/2.e5ea4d22.chunk.css",
+    "static/js/2.30051c48.chunk.js",
+    "static/css/main.f8c0e966.chunk.css",
+    "static/js/main.b44c8437.chunk.js"
+  ]
+}

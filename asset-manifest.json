@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/protfolio-web/static/css/main.f8c0e966.chunk.css",
-    "main.js": "/protfolio-web/static/js/main.b44c8437.chunk.js",
-    "main.js.map": "/protfolio-web/static/js/main.b44c8437.chunk.js.map",
+    "main.js": "/protfolio-web/static/js/main.f59d4285.chunk.js",
+    "main.js.map": "/protfolio-web/static/js/main.f59d4285.chunk.js.map",
     "runtime-main.js": "/protfolio-web/static/js/runtime-main.a31e2955.js",
     "runtime-main.js.map": "/protfolio-web/static/js/runtime-main.a31e2955.js.map",
     "static/css/2.e5ea4d22.chunk.css": "/protfolio-web/static/css/2.e5ea4d22.chunk.css",
@@ -20,9 +20,9 @@
     "static/media/highq-4.8c921831.png": "/protfolio-web/static/media/highq-4.8c921831.png",
     "static/media/highq-5.c8b74f7a.png": "/protfolio-web/static/media/highq-5.c8b74f7a.png",
     "static/media/highqWeb.fbbb7145.png": "/protfolio-web/static/media/highqWeb.fbbb7145.png",
+    "static/media/icon-man-color.9f259502.png": "/protfolio-web/static/media/icon-man-color.9f259502.png",
+    "static/media/icon-man-noColor.0460aaa4.png": "/protfolio-web/static/media/icon-man-noColor.0460aaa4.png",
     "static/media/ionicons.css": "/protfolio-web/static/media/ionicons.b45d332f.svg",
-    "static/media/male.cadeca2c.png": "/protfolio-web/static/media/male.cadeca2c.png",
-    "static/media/male1.33b5179e.png": "/protfolio-web/static/media/male1.33b5179e.png",
     "static/media/twitter-2.1c668f4e.png": "/protfolio-web/static/media/twitter-2.1c668f4e.png",
     "static/media/twitter-3.2952d398.png": "/protfolio-web/static/media/twitter-3.2952d398.png",
     "static/media/twitter-4.1606cdb1.png": "/protfolio-web/static/media/twitter-4.1606cdb1.png",
@@ -35,6 +35,6 @@
     "static/css/2.e5ea4d22.chunk.css",
     "static/js/2.30051c48.chunk.js",
     "static/css/main.f8c0e966.chunk.css",
-    "static/js/main.b44c8437.chunk.js"
+    "static/js/main.f59d4285.chunk.js"
   ]
 }

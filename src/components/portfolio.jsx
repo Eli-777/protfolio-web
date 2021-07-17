@@ -28,7 +28,7 @@ class Portfolio extends React.Component {
         title: "Expired App 紀錄物品到期日期",
         github: 'https://github.com/Eli-777/ExpiredApp',
         demo: "https://expired-app-aspnet.herokuapp.com/",
-        detailTitle: "獨立製作，設計RWD網站，以 mobile first 方式設計。",
+        detailTitle: "使用 ASP.NET 5 製作後端 api，以 angular 製作前端畫面。",
         detailContent: "紀錄物品的到期日期，管理各類物品過期情況。",
         skills: [
           "Angular",

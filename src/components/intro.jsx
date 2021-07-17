@@ -3,13 +3,26 @@ import "./stars.scss";
 import Typed from "react-typed";
 
 class Intro extends React.Component {
+  constructor(props) {
+    super(props)
+    this.state = {
+      start: new Array(100).fill(2),
+      test: 'test'
+    }
+  }
+
+  log() {
+    console.log(this.state.start);
+  }
   render() {
     return (
       // <div id="home" className="intro route bg-image " style={{backgroundImage: "url("+bigImage+")"}}>
       <div id="home" className="intro route bg-image background">
-        <div id="stars" />
-        <div id="stars2" />
-        <div id="stars3" />
+        {
+          this.state.start.map((number, index) => {
+            return <div className={`stars${index}`} key={number} />
+          })
+        }
 
         <div className="intro-content display-table">
           <div className="table-cell">

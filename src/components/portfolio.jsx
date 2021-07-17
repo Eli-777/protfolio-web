@@ -2,6 +2,11 @@ import React from "react";
 import PortfolioCard from './protfolioCard'
 
 //import stock
+import expiredAngular from '../img/expiredAngular.png';
+import expired1 from '../img/expired-1.png';
+import expired2 from '../img/expired-2.png';
+import expired3 from '../img/expired-3.png';
+import expired4 from '../img/expired-4.png';
 import highQWeb from "../img/highqWeb.png";
 import highQ2 from "../img/highq-2.png";
 import highQ3 from "../img/highq-3.png";
@@ -11,13 +16,28 @@ import twitterVue from '../img/twitter-vue.png'
 import twitter2 from '../img/twitter-2.png'
 import twitter3 from '../img/twitter-3.png'
 import twitter4 from '../img/twitter-4.png'
-import twitter5 from '../img/twitter-5.png'
+// import twitter5 from '../img/twitter-5.png'
 import twitter6 from '../img/twitter-6.png'
 
 
 class Portfolio extends React.Component {
   render() {
     const projects = [
+      {
+        id: "expired-angular",
+        title: "Expired App 紀錄物品到期日期",
+        github: 'https://github.com/Eli-777/ExpiredApp',
+        demo: "https://expired-app-aspnet.herokuapp.com/",
+        detailTitle: "獨立製作，設計RWD網站，以 mobile first 方式設計。",
+        detailContent: "紀錄物品的到期日期，管理各類物品過期情況。",
+        skills: [
+          "Angular",
+          "Rxjs",
+          "material UI",
+          "Scss",
+          "ASP.NET 5"
+        ]
+      },
       {
         id: "highq-react",
         title: "High Q web 圖文作家的宣傳官網",
@@ -64,12 +84,20 @@ class Portfolio extends React.Component {
           </div>
           <div className="row">
             <PortfolioCard
+              pic1={expiredAngular}
+              pic2={expired1}
+              pic3={expired2}
+              pic4={expired3}
+              pic5={expired4}
+              project={projects[0]}
+            />
+            <PortfolioCard
               pic1={highQWeb}
               pic2={highQ2}
               pic3={highQ3}
               pic4={highQ4}
               pic5={highQ5}
-              project={projects[0]}
+              project={projects[1]}
             />
             <PortfolioCard
               pic1={twitterVue}
@@ -77,7 +105,7 @@ class Portfolio extends React.Component {
               pic3={twitter3}
               pic4={twitter4}
               pic5={twitter6}
-              project={projects[1]}
+              project={projects[2]}
             />
 
           </div>

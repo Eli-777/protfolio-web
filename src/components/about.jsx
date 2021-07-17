@@ -1,6 +1,6 @@
 import React from "react";
 import { FaRegHandPointRight } from 'react-icons/fa';
-import pdf from '../pdf/A4-Eli-resume.pdf'
+import pdf from '../pdf/Eli-resume.pdf'
 
 class About extends React.Component {
   constructor() {
@@ -13,9 +13,9 @@ class About extends React.Component {
           icon: 'devicon-react-original colored skill-icon pl-3',
         },
         {
-          id: 'vue',
-          name: 'Vue',
-          icon: 'devicon-vuejs-plain colored skill-icon pl-3',
+          id: 'Angular',
+          name: 'Angular',
+          icon: 'devicon-angularjs-plain colored skill-icon pl-3',
         },
         {
           id: 'javascript',
@@ -28,8 +28,8 @@ class About extends React.Component {
           icon: 'devicon-css3-plain colored skill-icon pl-3',
         },
         {
-          id: 'sass',
-          name: 'Sass',
+          id: 'scss',
+          name: 'Scss',
           icon: 'devicon-sass-original colored skill-icon pl-3',
         },
         {
@@ -106,7 +106,7 @@ class About extends React.Component {
                       </div>
                       <div className="r">
                         <div className="summary-content col-10 mb-4">
-                          具一年的 web 前端開發經驗，從事四年多會計工作擁有與各部門溝通經驗，參與 ALPHA Camp 的線上課程，使用 Vue 與後端人員共同開發網頁後，覺得不足，所以自學 React 幫貼圖創作者朋友設計介紹貼圖的官網，持續深化前端技能。
+                          之前從事會計工作擁有與各部門溝通經驗，但覺得無趣及乏味，發現前端技術能呈現自己無法勾勒出的畫面效果，因此在網頁技術中找到成就感，開始學習前端與後端技術，也幫自己解決生活上不方便的地方，期待能接觸更多技術與打造各種實用產品。
                         </div>
                       </div>
                     </div>
@@ -134,7 +134,7 @@ class About extends React.Component {
                   </div>
 
                 </div>
-                <div className="row">
+                {/* <div className="row">
                   <div className="col-md-12">
                     <div className="row">
                       <div className="title-box-3">
@@ -175,7 +175,7 @@ class About extends React.Component {
                       })
                     }
                   </div>
-                </div>
+                </div> */}
                 <div className="row">
                   <div className="col-md-12">
                     <div className="row">

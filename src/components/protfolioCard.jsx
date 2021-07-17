@@ -39,7 +39,7 @@ function ProtfolioCard({ pic1, pic2, pic3, pic4, pic5, project }) {
               <div className="w-more">
                 {
                   project.skills.map(skill => (
-                    <span className="w-tag">{skill}</span>
+                    <span className="w-tag" key={skill}>{skill}</span>
                   ))
                 }
 
